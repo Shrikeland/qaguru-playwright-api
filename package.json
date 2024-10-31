@@ -1,0 +1,23 @@
+{
+  "name": "qaguru-playwright",
+  "version": "1.0.0",
+  "description": "POM",
+  "main": "index.js",
+  "scripts": {
+    "allureReport": "allure serve allure-results",
+    "api": "npx playwright test --grep @API"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^9.0.0",
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^22.5.4",
+    "allure-playwright": "^3.0.4",
+    "os": "^0.1.2",
+    "xml-js": "^1.6.11"
+  },
+  "dependencies": {
+    "axios": "^1.7.7"
+  }
+}
